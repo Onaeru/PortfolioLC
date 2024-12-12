@@ -533,6 +533,7 @@ body.dark-theme{
  
  .about__container{
      row-gap: 0;
+     justify-content: center;
  }
  
  .about__perfil{
@@ -823,7 +824,9 @@ body.dark-theme{
 
  .contact__container{
     position: relative;
+    justify-content: center;
     grid-template-rows: 300px max-content max-content;
+    background-color: var(--container-color);
     row-gap: 0;
  }
 
